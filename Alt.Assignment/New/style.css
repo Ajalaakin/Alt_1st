@@ -1,13 +1,10 @@
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
   body {
-    /* font-family: 'Inter', sans-serif; */
-    font-family: 'gilroy-medium', sanserif;
-  
+    font-family: "gilroy-medium", sanserif;
     line-height: 1.5;
   }
   
@@ -15,7 +12,7 @@
   h2,
   h3,
   h4 {
-    font-family: 'gilroy-bold', sanserif;
+    font-family: "gilroy-bold", sanserif;
   }
   
   li {
@@ -160,11 +157,6 @@
   }
   
   /* Header */
-  
-  header {
-    padding-top: 3.5rem;
-  }
-  
   .header-title {
     text-transform: capitalize;
     max-width: 1000px;
@@ -263,7 +255,7 @@
     }
   }
   
-  /************************ Views */
+  /* Views */
   .views {
     padding: 3.875rem 0;
     background: #f9fbfd;
@@ -545,8 +537,8 @@
   @media screen and (min-width: 1000px) {
     .form {
       background-color: #1e3448;
-      background-image: url('./images/form-left-bg.svg'),
-        url('./images/form-right-bg.svg');
+      background-image: url("./images/form-left-bg.svg"),
+        url("./images/form-right-bg.svg");
       background-position: left bottom, right bottom;
       background-repeat: no-repeat, no-repeat;
     }
@@ -612,8 +604,8 @@
   
   @media screen and (min-width: 1000px) {
     .questions {
-      background-image: url('./images/faq-left-bg.svg'),
-        url('./images/faq-right-bg.svg');
+      background-image: url("./images/faq-left-bg.svg"),
+        url("./images/faq-right-bg.svg");
       background-position: top left, right bottom;
       background-repeat: no-repeat, no-repeat;
     }
@@ -730,8 +722,8 @@
   @media screen and (min-width: 1000px) {
     .optimize {
       background-color: #1e3448;
-      background-image: url('./images/optimize-left-bg.svg'),
-        url('./images/optimize-right-bg.svg');
+      background-image: url("./images/optimize-left-bg.svg"),
+        url("./images/optimize-right-bg.svg");
       background-position: top left, right bottom;
       background-repeat: no-repeat, no-repeat;
     }
@@ -745,8 +737,8 @@
   
   @media screen and (min-width: 1000px) {
     .footer {
-      background-image: url('./images/footer-left-bg.svg'),
-        url('./images/footer-right-bg.svg');
+      background-image: url("./images/footer-left-bg.svg"),
+        url("./images/footer-right-bg.svg");
       background-position: bottom left, right bottom;
       background-repeat: no-repeat, no-repeat;
     }
